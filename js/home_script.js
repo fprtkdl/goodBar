@@ -8,7 +8,7 @@ const swiperBox = new Swiper('.swiperBox > .swiper', {
   slidesOffsetBefore: 150
 })
 
-new Swiper('.Bar > .swiper', {
+new Swiper('.bestBarSlide > .swiper', {
   autoplay: {
     delay: 5000
   },

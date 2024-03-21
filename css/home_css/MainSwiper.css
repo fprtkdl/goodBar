@@ -1,0 +1,65 @@
+@import url(./Font.css);
+
+.bestBarSlide {
+    position: relative;
+    top: 6vh;
+    scroll-snap-type: x mandatory;
+}
+
+.bestBarSlide > .swiper-slide > a {
+    padding-top: 5vh;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.bestBarSlide > .swiper {
+    width: 100%;
+    /* width: 100%; */
+    height: 600px;
+}
+
+.bestBarSlide > .swiper-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.bestBarSlide > .swiper .swiper-slide {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: "국립박물관문화재단클래식L";
+    color: white;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    background-color: #fff;
+    padding: 30px 30px;
+    border-radius: 50%;
+    color: black !important;
+    margin: 150px;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-size: 2rem !important;
+    font-weight: 600 !important;
+}
+
+.swiper-pagination-bullet {
+    background: black !important;
+}
+
+
+
+#bestBar1 {background-image: url(/img_font/bestBar/BBK\ Social\ Club\ in\ Argentine.png);}
+#bestBar2 {background-image: url(/img_font/bestBar/Cold\ Drinks\ in\ America.jpg);}
+#bestBar3 {background-image: url(/img_font/bestBar/Dante\ in\ NewYork.jpg);}
+#bestBar4 {background-image: url(/img_font/bestBar/Paradiso\ in\ spain.jpg);}
+#bestBar5 {background-image: url(/img_font/bestBar/THE\ Clumsies\ in\ Athens.jpg);}
+

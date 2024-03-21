@@ -1,0 +1,60 @@
+@import url(./Font.css);
+
+@import url(./CocktailSlideImg.css);
+
+@import url(/css/header.css);
+
+.swiperBox {
+    position: relative;
+    top: 6vh;
+}
+
+.swiperBox>h1 {
+    margin-left: 150px;
+    padding-top: 6vh;
+    font-family: "국립박물관문화재단클래식B";
+}
+
+.donttouch {
+    width: 100%;
+    height: calc(6vh - (6vh - 50px));
+    background-color: black;
+    position: absolute;
+    z-index: 7777;
+    opacity: 0;
+}
+
+.swiperBox>.swiper>.swiper-wrapper>.swiper-slide>a {
+    padding-top: 5vh;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.swiperBox>.swiper {
+    width: 100%;
+    height: 410px;
+}
+
+.swiperBox>.swiper>.swiper-wrapper {
+    display: flex;
+    align-items: flex-end;
+}
+
+.swiperBox>.swiper .swiper-slide {
+    height: 360px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 25px;
+    transform-origin: center bottom;
+    transition: all 0.2s ease;
+    font-family: "국립박물관문화재단클래식L";
+    color: white;
+}

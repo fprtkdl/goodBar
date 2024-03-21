@@ -1,0 +1,101 @@
+
+#bestImg1 {background-image: url(/img_font/BestCocktails/Negroni.png);}
+#bestImg2 {background-image: url(/img_font/BestCocktails/Old_Fashioned.png);}
+#bestImg3 {background-image: url(/img_font/BestCocktails/드라이_마티니.png);}
+#bestImg4 {background-image: url(/img_font/BestCocktails/마가리타.png);}
+#bestImg5 {background-image: url(/img_font/BestCocktails/다이키리.png);}
+#bestImg6 {background-image: url(/img_font/BestCocktails/아페롤_스프리츠.png);}
+#bestImg7 {background-image: url(/img_font/BestCocktails/Espresso_Martini.png);}
+#bestImg8 {background-image: url(/img_font/BestCocktails/맨해튼.png);}
+#bestImg9 {background-image: url(/img_font/BestCocktails/모히또.png);}
+#bestImg10 {background-image: url(/img_font/BestCocktails/위스키_사워.png);}
+
+#VODKA_BASS1 {background-image: url(/img_font/VODKA_BASS/Appletini.png);}
+#VODKA_BASS2 {background-image: url(/img_font/VODKA_BASS/Balalaika.png);}
+#VODKA_BASS3 {background-image: url(/img_font/VODKA_BASS/Black_Martini.png);}
+#VODKA_BASS4 {background-image: url(/img_font/VODKA_BASS/Black_Russian.png);}
+#VODKA_BASS5 {background-image: url(/img_font/VODKA_BASS/Bloody_Mary.png);}
+#VODKA_BASS6 {background-image: url(/img_font/VODKA_BASS/Blue_Lagoon.png);}
+#VODKA_BASS7 {background-image: url(/img_font/VODKA_BASS/Cosmpolitan.png);} 
+#VODKA_BASS8 {background-image: url(/img_font/VODKA_BASS/Espresso_Martini.png);}    
+#VODKA_BASS9 {background-image: url(/img_font/VODKA_BASS/Graveyard.png);}
+#VODKA_BASS10 {background-image: url(/img_font/VODKA_BASS/Harvey_Wallbanger.png);}    
+#VODKA_BASS11 {background-image: url(/img_font/VODKA_BASS/Kamikaze.png);}    
+#VODKA_BASS12 {background-image: url(/img_font/VODKA_BASS/Lemon_Drop_Martini.png);}
+#VODKA_BASS13 {background-image: url(/img_font/VODKA_BASS/Long_Island_Iced_Tea.png);}
+#VODKA_BASS14 {background-image: url(/img_font/VODKA_BASS/Moscow_Mule.png);}
+#VODKA_BASS15 {background-image: url(/img_font/VODKA_BASS/Polar_Bear.png);}
+#VODKA_BASS16 {background-image: url(/img_font/VODKA_BASS/Russian_Spring_Punch.png);}
+#VODKA_BASS17 {background-image: url(/img_font/VODKA_BASS/Salty_Dog.png);}
+#VODKA_BASS18 {background-image: url(/img_font/VODKA_BASS/Screwdriver.png);}
+#VODKA_BASS19 {background-image: url(/img_font/VODKA_BASS/Sea_Breeze.png);}
+#VODKA_BASS20 {background-image: url(/img_font/VODKA_BASS/Sex_on_the_Beach.png);}
+#VODKA_BASS21 {background-image: url(/img_font/VODKA_BASS/Spicy_Fifty.png);}
+#VODKA_BASS22 {background-image: url(/img_font/VODKA_BASS/White_Russian.png);}
+
+#GIN_BASS1 {background-image: url(/img_font/GIN_BASS/Bronx.png);}
+#GIN_BASS2 {background-image: url(/img_font/GIN_BASS/Clover_Club.png);}
+#GIN_BASS3 {background-image: url(/img_font/GIN_BASS/Derby.png);}
+#GIN_BASS4 {background-image: url(/img_font/GIN_BASS/Earthquake.png);}
+#GIN_BASS5 {background-image: url(/img_font/GIN_BASS/French75.png);}
+#GIN_BASS6 {background-image: url(/img_font/GIN_BASS/Gibson.png);}
+#GIN_BASS7 {background-image: url(/img_font/GIN_BASS/Gimlet.png);}
+#GIN_BASS8 {background-image: url(/img_font/GIN_BASS/John_Collins.png);}
+#GIN_BASS9 {background-image: url(/img_font/GIN_BASS/Martinez.png);}
+#GIN_BASS10 {background-image: url(/img_font/GIN_BASS/Negroni.png);}
+#GIN_BASS11 {background-image: url(/img_font/GIN_BASS/Pink_Lady.png);}
+#GIN_BASS12 {background-image: url(/img_font/GIN_BASS/Ramos_Gib_Fizz.png);}
+#GIN_BASS13 {background-image: url(/img_font/GIN_BASS/White_Lady.png);}
+
+
+.swiperBox > .swiper:hover .swiper-slide{scale: 0.95;}
+
+#bestImg1:hover ,#bestImg2:hover,
+#bestImg3:hover ,#bestImg4:hover,
+#bestImg5:hover ,#bestImg6:hover,
+#bestImg7:hover ,#bestImg8:hover,
+#bestImg9:hover ,#bestImg10:hover {
+    scale: 1.05;
+}
+
+#VODKA_BASS1:hover ,#VODKA_BASS2:hover,
+#VODKA_BASS3:hover ,#VODKA_BASS4:hover,
+#VODKA_BASS5:hover ,#VODKA_BASS6:hover,
+#VODKA_BASS7:hover ,#VODKA_BASS8:hover,
+#VODKA_BASS9:hover ,#VODKA_BASS10:hover,
+#VODKA_BASS11:hover ,#VODKA_BASS12:hover,
+#VODKA_BASS13:hover ,#VODKA_BASS14:hover,
+#VODKA_BASS15:hover ,#VODKA_BASS16:hover,
+#VODKA_BASS17:hover ,#VODKA_BASS18:hover,
+#VODKA_BASS19:hover ,#VODKA_BASS20:hover,
+#VODKA_BASS21:hover ,#VODKA_BASS22:hover {
+    scale: 1.05;
+}
+
+#GIN_BASS1:hover ,#GIN_BASS2:hover,
+#GIN_BASS3:hover ,#GIN_BASS4:hover,
+#GIN_BASS5:hover ,#GIN_BASS6:hover,
+#GIN_BASS7:hover ,#GIN_BASS8:hover,
+#GIN_BASS9:hover ,#GIN_BASS10:hover,
+#GIN_BASS11:hover ,#GIN_BASS12:hover, 
+#GIN_BASS13:hover {
+    scale: 1.05;
+}
+
+#RUM_BASS1:hover ,#RUM_BASS2:hover,
+#RUM_BASS3:hover ,#RUM_BASS4:hover,
+#RUM_BASS5:hover ,#RUM_BASS6:hover,
+#RUM_BASS7:hover ,#RUM_BASS8:hover,
+#RUM_BASS9:hover ,#RUM_BASS10:hover,
+#RUM_BASS11:hover ,#RUM_BASS12:hover {
+    scale: 1.05;
+}
+
+#TEQUILA_BASS1:hover ,#TEQUILA_BASS2:hover,
+#TEQUILA_BASS3:hover ,#TEQUILA_BASS4:hover,
+#TEQUILA_BASS5:hover ,#TEQUILA_BASS6:hover,
+#TEQUILA_BASS7:hover ,#TEQUILA_BASS8:hover,
+#TEQUILA_BASS9:hover ,#TEQUILA_BASS10:hover,
+#TEQUILA_BASS11:hover ,#TEQUILA_BASS12:hover {
+    scale: 1.05;
+}
