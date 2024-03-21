@@ -1,0 +1,247 @@
+@import url(./Font.css);
+* {
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.con {
+    width: 100%;
+    height: 500vh;
+    position: relative;
+}
+
+
+header {
+    width: 100%;
+    height: 6vh;
+    background-color: white;
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.1);
+
+    font-family: "국립박물관문화재단클래식M";
+}
+
+.Logo {
+    /* width: 150px; */
+    margin-left: 150px;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: '긱블말랑';
+}
+
+.LogoImg {
+    width: 2vw;
+    height: 2vw;
+
+    background-image: url(/img_font/appicon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.LogoTitle {
+    font-size: 1.5vw;
+    color: #ef233c;
+}
+
+.headerList {
+    width: 16vw;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 6%;
+    font-size: 1.2vw;
+    color: #6e6e6e;
+    font-family: "Pretendard-Regular";
+    font-weight: 600;
+}
+
+.headerList>li {
+    height: 6vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.headerList>li:nth-child(1) {
+    color: #ef233c;
+}
+
+.headerList>li::after {
+    content: "";
+    position: relative;
+    top: 1.5vh;
+    height: 5px;
+    background-color: #ef233c;
+    transform-origin: left;
+    transition: all 0.2s ease;
+    transform: scaleX(0);
+    border-radius: 10px;
+}
+
+.headerList>li:hover::after {
+    transform: scaleX(1);
+}
+
+.swiperBox {
+    position: relative;
+    top: 6vh;
+}
+
+.swiperBox > h1 {
+    margin-left: 150px;
+    padding-top: 6vh;
+    font-family: "국립박물관문화재단클래식B";
+}
+
+.donttouch {
+    width: 100%;
+    height: calc(6vh - (6vh - 50px));
+    background-color: black;
+    position: absolute;
+    z-index: 7777;
+    opacity: 0;
+}
+
+.swiperBox > .swiper > .swiper-wrapper > .swiper-slide > a {
+    padding-top: 5vh;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.swiperBox > .swiper {
+    width: 100%;
+    height: 410px;
+}
+
+.swiperBox > .swiper > .swiper-wrapper {
+    display: flex;
+    align-items: flex-end;
+}
+
+.swiperBox > .swiper .swiper-slide {
+    height: 360px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 25px;
+    transform-origin: center bottom;
+    transition: all 0.2s ease;
+
+    font-family: "국립박물관문화재단클래식L";
+    color: white;
+}
+
+#bestImg1 {background-image: url(/img_font/BestCocktails/Negroni.png);}
+#bestImg2 {background-image: url(/img_font/BestCocktails/Old_Fashioned.png);}
+#bestImg3 {background-image: url(/img_font/BestCocktails/드라이_마티니.png);}
+#bestImg4 {background-image: url(/img_font/BestCocktails/마가리타.png);}
+#bestImg5 {background-image: url(/img_font/BestCocktails/다이키리.png);}
+#bestImg6 {background-image: url(/img_font/BestCocktails/아페롤_스프리츠.png);}
+#bestImg7 {background-image: url(/img_font/BestCocktails/에스프레소_마티니.png);}
+#bestImg8 {background-image: url(/img_font/BestCocktails/맨해튼.png);}
+#bestImg9 {background-image: url(/img_font/BestCocktails/모히또.png);}
+#bestImg10 {background-image: url(/img_font/BestCocktails/위스키_사워.png);}
+
+#VODKA_BASS1 {background-image: url(/img_font/VODKA_BASS/Black_Russian.png);}
+#VODKA_BASS2 {background-image: url(/img_font/VODKA_BASS/Bloody_Mary.png);}
+#VODKA_BASS3 {background-image: url(/img_font/VODKA_BASS/Blue_Lagoon.png);}
+#VODKA_BASS4 {background-image: url(/img_font/VODKA_BASS/Cosmpolitan.png);}
+#VODKA_BASS5 {background-image: url(/img_font/VODKA_BASS/Espresso_Martini.png);}
+#VODKA_BASS6 {background-image: url(/img_font/VODKA_BASS/Lemon_Drop_Martini.png);}
+#VODKA_BASS7 {background-image: url(/img_font/VODKA_BASS/Long_Island_Iced_Tea.png);}
+#VODKA_BASS8 {background-image: url(/img_font/VODKA_BASS/Sex_on_the_Beach.png);}
+#VODKA_BASS9 {background-image: url(/img_font/VODKA_BASS/Moscow_Mule.png);}
+#VODKA_BASS10 {background-image: url(/img_font/VODKA_BASS/Salty_Dog.png);}
+#VODKA_BASS11 {background-image: url(/img_font/VODKA_BASS/Screwdriver.png);}
+#VODKA_BASS12 {background-image: url(/img_font/VODKA_BASS/White_Russian.png);}
+
+#GIN_BASS1 {background-image: url(/img_font/GIN_BASS/Bronx.png);}
+#GIN_BASS2 {background-image: url(/img_font/GIN_BASS/Clover_Club.png);}
+#GIN_BASS3 {background-image: url(/img_font/GIN_BASS/Derby.png);}
+#GIN_BASS4 {background-image: url(/img_font/GIN_BASS/Earthquake.png);}
+#GIN_BASS5 {background-image: url(/img_font/GIN_BASS/French75.png);}
+#GIN_BASS6 {background-image: url(/img_font/GIN_BASS/Gibson.png);}
+#GIN_BASS7 {background-image: url(/img_font/GIN_BASS/Gimlet.png);}
+#GIN_BASS8 {background-image: url(/img_font/GIN_BASS/John_Collins.png);}
+#GIN_BASS9 {background-image: url(/img_font/GIN_BASS/Martinez.png);}
+#GIN_BASS10 {background-image: url(/img_font/GIN_BASS/Negroni.png);}
+#GIN_BASS11 {background-image: url(/img_font/GIN_BASS/Pink_Lady.png);}
+#GIN_BASS12 {background-image: url(/img_font/GIN_BASS/Ramos_Gib_Fizz.png);}
+#GIN_BASS13 {background-image: url(/img_font/GIN_BASS/White_Lady.png);}
+
+
+.swiperBox > .swiper:hover .swiper-slide{scale: 0.95;}
+
+/* #bestImg1:hover {scale: 1.05;}
+#bestImg2:hover {scale: 1.05;} */
+#bestImg3:hover {scale: 1.05;}
+#bestImg4:hover {scale: 1.05;}
+#bestImg5:hover {scale: 1.05;}
+#bestImg6:hover {scale: 1.05;}
+#bestImg7:hover {scale: 1.05;}
+#bestImg8:hover {scale: 1.05;}
+#bestImg9:hover {scale: 1.05;}
+#bestImg10:hover {scale: 1.05;}
+
+#bestImg1:hover ,#bestImg2:hover,
+#bestImg3:hover ,#bestImg4:hover,
+#bestImg5:hover ,#bestImg6:hover,
+#bestImg7:hover ,#bestImg8:hover,
+#bestImg9:hover ,#bestImg10:hover {
+    scale: 1.05;
+}
+
+#VODKA_BASS1:hover ,#VODKA_BASS2:hover,
+#VODKA_BASS3:hover ,#VODKA_BASS4:hover,
+#VODKA_BASS5:hover ,#VODKA_BASS6:hover,
+#VODKA_BASS7:hover ,#VODKA_BASS8:hover,
+#VODKA_BASS9:hover ,#VODKA_BASS10:hover,
+#VODKA_BASS11:hover ,#VODKA_BASS12:hover {
+    scale: 1.05;
+}
+
+#GIN_BASS1:hover ,#GIN_BASS2:hover,
+#GIN_BASS3:hover ,#GIN_BASS4:hover,
+#GIN_BASS5:hover ,#GIN_BASS6:hover,
+#GIN_BASS7:hover ,#GIN_BASS8:hover,
+#GIN_BASS9:hover ,#GIN_BASS10:hover,
+#GIN_BASS11:hover ,#GIN_BASS12:hover, 
+#GIN_BASS13:hover {
+    scale: 1.05;
+}
+
+#RUM_BASS1:hover ,#RUM_BASS2:hover,
+#RUM_BASS3:hover ,#RUM_BASS4:hover,
+#RUM_BASS5:hover ,#RUM_BASS6:hover,
+#RUM_BASS7:hover ,#RUM_BASS8:hover,
+#RUM_BASS9:hover ,#RUM_BASS10:hover,
+#RUM_BASS11:hover ,#RUM_BASS12:hover {
+    scale: 1.05;
+}
+
+#TEQUILA_BASS1:hover ,#TEQUILA_BASS2:hover,
+#TEQUILA_BASS3:hover ,#TEQUILA_BASS4:hover,
+#TEQUILA_BASS5:hover ,#TEQUILA_BASS6:hover,
+#TEQUILA_BASS7:hover ,#TEQUILA_BASS8:hover,
+#TEQUILA_BASS9:hover ,#TEQUILA_BASS10:hover,
+#TEQUILA_BASS11:hover ,#TEQUILA_BASS12:hover {
+    scale: 1.05;
+}

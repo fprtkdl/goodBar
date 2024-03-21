@@ -1,0 +1,158 @@
+@import url(./Font.css);
+* {
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.con {
+    width: 100%;
+    height: 500vh;
+    position: relative;
+}
+
+
+header {
+    width: 100%;
+    height: 6vh;
+    background-color: white;
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.1);
+
+    font-family: "국립박물관문화재단클래식M";
+}
+
+.Logo {
+    /* width: 150px; */
+    margin-left: 150px;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.LogoImg {
+    width: 2vw;
+    height: 2vw;
+    background-image: url(/img_font/appicon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.LogoTitle {
+    font-size: 1.5vw;
+    color: #ef233c;
+}
+
+.headerList {
+    width: 16vw;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 6%;
+    font-size: 1.2vw;
+    color: #6e6e6e;
+    font-family: ("Pretendard-Regular");
+}
+
+.headerList>li {
+    height: 6vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.headerList>li:nth-child(1) {
+    color: #ef233c;
+}
+
+.headerList>li::after {
+    content: "";
+    position: relative;
+    top: 1.5vh;
+    height: 5px;
+    background-color: #ef233c;
+    transform-origin: left;
+    transition: all 0.2s ease;
+    transform: scaleX(0);
+    border-radius: 10px;
+}
+
+.headerList>li:hover::after {
+    transform: scaleX(1);
+}
+ /* ///////////////////////////////////////////// */
+ /* ///////////////////////////////////////////// */
+
+
+.Bar {
+    position: relative;
+    top: 6vh;
+    scroll-snap-type: x mandatory;
+}
+
+.Bar > .swiper-slide > a {
+    padding-top: 5vh;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.Bar > .swiper {
+    width: 100%;
+    /* width: 100%; */
+    height: 600px;
+}
+
+.Bar > .swiper-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Bar > .swiper .swiper-slide {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: "국립박물관문화재단클래식L";
+    color: white;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    background-color: #fff;
+    padding: 30px 30px;
+    border-radius: 50%;
+    color: black !important;
+    margin: 150px;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-size: 2rem !important;
+    font-weight: 600 !important;
+}
+
+.swiper-pagination-bullet {
+    background: black !important;
+}
+
+
+
+#bestBar1 {background-image: url(/img_font/bestBar/BBK\ Social\ Club\ in\ Argentine.png);}
+#bestBar2 {background-image: url(/img_font/bestBar/Cold\ Drinks\ in\ America.jpg);}
+#bestBar3 {background-image: url(/img_font/bestBar/Dante\ in\ NewYork.jpg);}
+#bestBar4 {background-image: url(/img_font/bestBar/Paradiso\ in\ spain.jpg);}
+#bestBar5 {background-image: url(/img_font/bestBar/THE\ Clumsies\ in\ Athens.jpg);}
